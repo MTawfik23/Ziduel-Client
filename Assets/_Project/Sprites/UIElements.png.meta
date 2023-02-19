@@ -1,0 +1,590 @@
+fileFormatVersion: 2
+guid: 5dea8b447084d1b4aa6f1524c23b603f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4981941574529719386
+    second: Circle Filled 64px
+  - first:
+      213: -8562025977523138459
+    second: Circle Outline 64px - Stroke 3px
+  - first:
+      213: -3833722348723407585
+    second: Circle Outline 64px - Stroke 5px
+  - first:
+      213: -2309355378252261102
+    second: Circle Outline 64px - Stroke 8px
+  - first:
+      213: 8670648347001432465
+    second: Circle Outline 64px - Stroke 10px
+  - first:
+      213: 9052501497586962665
+    second: Circle Outline 64px - Stroke 12px
+  - first:
+      213: 8872922606957821374
+    second: Circle Outline 64px - Stroke 14px
+  - first:
+      213: 2366847624729520479
+    second: Circle Outline 64px - Stroke 16px
+  - first:
+      213: -9003695647651319075
+    second: Circle Outline 64px - Stroke 18px
+  - first:
+      213: 8579930517975800749
+    second: Circle Outline 64px - Stroke 20px
+  - first:
+      213: -6918451464292533919
+    second: Circle Outline Dash 64px - Stroke 3px
+  - first:
+      213: 2773230758744482997
+    second: Circle Shadow 64px
+  - first:
+      213: 5913669122981751529
+    second: 'Gradient Circle '
+  - first:
+      213: 1192121309995710103
+    second: Gradient
+  - first:
+      213: 8316150575541490755
+    second: Bottom Menu
+  - first:
+      213: -1681614179558218346
+    second: Menu Corners
+  - first:
+      213: 1714273128251984018
+    second: Menu Corners - Shadow
+  - first:
+      213: -5544390682586023612
+    second: Menu Corners - shadow
+  - first:
+      213: 2712498514355516098
+    second: Circle_For_Button
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 1
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Circle_For_Button
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 510
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 256, y: 256, z: 256, w: 256}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c27fe1070bb4a520800000000000000
+      internalID: 2712498514355516098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Filled 64px
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 894
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 64, z: 64, w: 64}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3e76e88869cdab0800000000000000
+      internalID: -4981941574529719386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Outline 64px - Stroke 3px
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 634
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 64, z: 64, w: 64}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560111cacb29d2980800000000000000
+      internalID: -8562025977523138459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Outline 64px - Stroke 5px
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 288
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 64, z: 64, w: 64}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f157dd4f5d1ebcac0800000000000000
+      internalID: -3833722348723407585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Outline 64px - Stroke 8px
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 204
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 64, z: 64, w: 64}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219d22bd48583ffd0800000000000000
+      internalID: -2309355378252261102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Outline 64px - Stroke 10px
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 894
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 64, z: 64, w: 64}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19929578bb4545870800000000000000
+      internalID: 8670648347001432465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Outline 64px - Stroke 12px
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 678
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 64, z: 64, w: 64}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0dc5c5622f0ad70800000000000000
+      internalID: 9052501497586962665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Outline 64px - Stroke 14px
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 548
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 64, z: 64, w: 64}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdf04ba914f22b70800000000000000
+      internalID: 8872922606957821374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Outline 64px - Stroke 16px
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 418
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 64, z: 64, w: 64}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59ea75ef5bb8d020800000000000000
+      internalID: 2366847624729520479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Outline 64px - Stroke 18px
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 764
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 64, z: 64, w: 64}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2330813827c0380800000000000000
+      internalID: -9003695647651319075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Outline 64px - Stroke 20px
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 894
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 64, z: 64, w: 64}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab1b710959021770800000000000000
+      internalID: 8579930517975800749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Outline Dash 64px - Stroke 3px
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 64, y: 64, z: 64, w: 64}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169ff0b7c09bcff90800000000000000
+      internalID: -6918451464292533919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle Shadow 64px
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 334
+        width: 174
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 87, y: 87, z: 87, w: 87}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4e62f8eae7c7620800000000000000
+      internalID: 2773230758744482997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 'Gradient Circle '
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 108
+        width: 400
+        height: 400
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 200, y: 200, z: 200, w: 200}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eae5824cb2911250800000000000000
+      internalID: 5913669122981751529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gradient
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 152
+        width: 100
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 50, y: 1, z: 50, w: 48}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796b77be3044b8010800000000000000
+      internalID: 1192121309995710103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Corners - shadow
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 808
+        width: 168
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 84, y: 1, z: 84, w: 82}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4497974bc0e5e03b0800000000000000
+      internalID: -5544390682586023612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Menu Corners
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 568
+        width: 128
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 64, y: 1, z: 64, w: 62}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6952c2230d4b9a8e0800000000000000
+      internalID: -1681614179558218346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 73e53aee31410f94694996c6b3925861
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Circle Outline Dash 64px - Stroke 3px: -6918451464292533919
+      Circle Outline 64px - Stroke 8px: -2309355378252261102
+      Circle Outline 64px - Stroke 5px: -3833722348723407585
+      Circle Outline 64px - Stroke 12px: 9052501497586962665
+      Circle Outline 64px - Stroke 20px: 8579930517975800749
+      Circle Outline 64px - Stroke 18px: -9003695647651319075
+      Menu Corners: -1681614179558218346
+      Circle_For_Button: 2712498514355516098
+      Circle Filled 64px: -4981941574529719386
+      Circle Outline 64px - Stroke 16px: 2366847624729520479
+      Circle Shadow 64px: 2773230758744482997
+      Circle Outline 64px - Stroke 14px: 8872922606957821374
+      Gradient: 1192121309995710103
+      Menu Corners - shadow: -5544390682586023612
+      Circle Outline 64px - Stroke 3px: -8562025977523138459
+      Circle Outline 64px - Stroke 10px: 8670648347001432465
+      'Gradient Circle ': 5913669122981751529
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
