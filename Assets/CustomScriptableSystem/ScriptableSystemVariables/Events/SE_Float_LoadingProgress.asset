@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4545953d77e5974e8a8cd7bf16e5f6c, type: 3}
-  m_Name: SE_Bool_Hamada
+  m_Script: {fileID: 11500000, guid: 595d9f20b09e5fa429be92a6869026b7, type: 3}
+  m_Name: SE_Float_LoadingProgress
   m_EditorClassIdentifier: 
   Value: 0

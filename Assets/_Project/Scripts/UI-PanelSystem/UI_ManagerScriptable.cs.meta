@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 418b01cd188409047b4d8eff354adf37
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - uiPanelChanged: {fileID: 11400000, guid: 2f4d5ecef7909d447a2a45f04b4b6670, type: 2}
+  - uiSubPanelChanged: {fileID: 11400000, guid: a41071b315d784f4080cf0d7c2635808, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

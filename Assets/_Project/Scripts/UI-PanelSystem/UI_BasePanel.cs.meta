@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: a4eed856a1949364dae7731d33390dcb
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - uiManagerScriptable: {fileID: 11400000, guid: e51804015cfcd1c459473d336dece2ec, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

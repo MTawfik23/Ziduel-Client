@@ -24,7 +24,7 @@ public class AuthanticationManager : MonoBehaviour
     [SerializeField] private bool UseEditordeviceID = false;
     [SerializeField] private bool UseRandomdeviceID = false;
     //[SerializeField] [Tooltip("Leave Empty for a random ID")] private string deviceID = "QWREXAFWEEAWEWARAXFXCVXAQE";
-    [SerializeField] [Tooltip("Leave Empty for a random ID")] private SV_string deviceID = null;
+    [SerializeField][Tooltip("Leave Empty for a random ID")] private SV_string deviceID = null;
     [SerializeField] private TMPro.TextMeshProUGUI text = null;
 
     [SerializeField] private bool isTryConnecting = false, isReconncetingSocket = false;
@@ -58,14 +58,14 @@ public class AuthanticationManager : MonoBehaviour
             // Open a new Socket for realtime communication.
             await socket.Value.ConnectAsync(session.Value, true);
             Debug.Log($"Auth Success  UserId={session.Value.UserId} , username={session.Value.Username}");
-            text.text = $"Auth Success UserId={session.Value.UserId} , username={session.Value.Username}";
+            if (text) text.text = $"Auth Success UserId={session.Value.UserId} , username={session.Value.Username}";
             authSuccess.Raise();
         }
         catch (Exception ex)
         {
             authFaild.Raise();
             Debug.LogError($"Auth Faild With Message {ex.Message}");
-            text.text = $"Auth Faild With Message {ex.Message}";
+            if (text) text.text = $"Auth Faild With Message {ex.Message}";
             socket.Value = client.Value.NewSocket();
             socket.Init();
         }
