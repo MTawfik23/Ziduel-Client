@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1239860505819157519}
-  - component: {fileID: 6664331737365568880}
   m_Layer: 5
   m_Name: Counter
   m_TagString: Untagged
@@ -27,6 +26,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8469347982278249497}
   - {fileID: 8061587800745004318}
@@ -38,19 +38,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1682.5, y: -37.5}
   m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &6664331737365568880
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7624433333539752251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e03fad828a028644f941be7c68f94500, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  revealTimeCounter: {fileID: 6950291003307829849}
 --- !u!1 &7736467836307763865
 GameObject:
   m_ObjectHideFlags: 0
@@ -79,6 +66,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1239860505819157519}
   m_RootOrder: 1
@@ -154,6 +142,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1239860505819157519}
   m_RootOrder: 0

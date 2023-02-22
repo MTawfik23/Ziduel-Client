@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9163008522981222722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9163008522981222732}
+  - component: {fileID: 9163008522981222733}
+  m_Layer: 0
+  m_Name: AuthManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9163008522981222732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9163008522981222722}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9163008522981222733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9163008522981222722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3789e07bbd5ef46842cf47254c4eaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  client: {fileID: 11400000, guid: 7373b666316e3554697f22d7c6c3a18d, type: 2}
+  session: {fileID: 11400000, guid: 8366e95a34afc194686c5c2d5941df3e, type: 2}
+  socket: {fileID: 11400000, guid: a86952b7a9f686e49bf3c8c9d97490ea, type: 2}
+  myPlayer: {fileID: 11400000, guid: 2d1261fb6f0f17c43b40476014f678e3, type: 2}
+  authSuccess: {fileID: 11400000, guid: e34f0663ad3efac4695961ce8c080d70, type: 2}
+  authFaild: {fileID: 11400000, guid: 5ecca8ac0a1df2f448e6939d83724ef3, type: 2}
+  UseLocalhostScheme: 1
+  localhostScheme: {fileID: 11400000, guid: 3c1c41c562ab5664c82bd4b3c4dbb7fe, type: 2}
+  nakamaScheme: {fileID: 11400000, guid: f847ae8b3a5527c4e93570f6ee3e54e4, type: 2}
+  UseEditordeviceID: 0
+  UseRandomdeviceID: 0
+  deviceID: {fileID: 11400000, guid: e37a506964a0b374481c5ef82200af53, type: 2}
+  text: {fileID: 0}
+  isTryConnecting: 0
+  isReconncetingSocket: 0

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 42c2996cf2e0d5645963ea08c28aa1e1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - uiManagerScriptable: {fileID: 11400000, guid: e51804015cfcd1c459473d336dece2ec, type: 2}
+  - playOnlineButton: {instanceID: 0}
+  - playOfflineButton: {instanceID: 0}
+  - shopButton: {instanceID: 0}
+  - settingsButton: {instanceID: 0}
+  - friendsButton: {instanceID: 0}
+  - newsButton: {instanceID: 0}
+  - gameStateText: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
