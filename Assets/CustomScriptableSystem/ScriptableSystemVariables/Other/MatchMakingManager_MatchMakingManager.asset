@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a46d3784c245a54cbdffc0ed05b8776, type: 3}
+  m_Name: MatchMakingManager_MatchMakingManager
+  m_EditorClassIdentifier: 
+  currentMatchId: 
+  busy: 0
+  socket: {fileID: 11400000, guid: a86952b7a9f686e49bf3c8c9d97490ea, type: 2}
+  myPlayer: {fileID: 11400000, guid: 2d1261fb6f0f17c43b40476014f678e3, type: 2}
+  loadScene: {fileID: 11400000, guid: e74859ca734ba2d44be1b81c3427a788, type: 2}
+  homeScreen: {fileID: 11400000, guid: fc823eee23e076e438c6a6135db2b562, type: 2}
+  onlineGameScene: {fileID: 11400000, guid: 31b0c029ede588545828122ba63e53ba, type: 2}

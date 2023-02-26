@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: UI_ManagerScriptable_UiManagerScriptable
   m_EditorClassIdentifier: 
   UIPanelChanged: {fileID: 11400000, guid: 2f4d5ecef7909d447a2a45f04b4b6670, type: 2}
-  currentPanel: 2
+  currentPanel: 0
   previousPanel: 0
   UISubPanelChanged: {fileID: 11400000, guid: a41071b315d784f4080cf0d7c2635808, type: 2}
   currentSubPanel: 0

@@ -979,5 +979,9 @@ PrefabInstance:
       propertyPath: text
       value: 
       objectReference: {fileID: 1327721776}
+    - target: {fileID: 9163008522981222733, guid: 5c8822eac89ac8b41a17e1cf67d82ec7, type: 3}
+      propertyPath: UseRandomdeviceID
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c8822eac89ac8b41a17e1cf67d82ec7, type: 3}

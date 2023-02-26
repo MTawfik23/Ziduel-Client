@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/_Project/Scenes/HomeScreen.unity
     guid: 2373c21b5ed6ac7409d8992e963d3361
   - enabled: 1
-    path: Assets/_Project/Scenes/OnlineScreen.unity
-    guid: 28575d390f4a1134faf2396ec73ff7ab
+    path: Assets/_Project/Scenes/OnlineGameScene.unity
+    guid: bf6f6f51573608146a170785b6ebc244
   m_configObjects: {}

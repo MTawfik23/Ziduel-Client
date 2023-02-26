@@ -33,6 +33,7 @@ public class MatchMakingManager : ScriptableObject
     private UnityMainThreadDispatcher mainThread;
     public void Start()
     {
+        currentMatchId = "";
         mainThread = UnityMainThreadDispatcher.Instance();
         socket.receivedMatchmakerMatched += SubscribeReceivedMatchmakerMatched;
         socket.receivedMatchPresence += SubscribeReceivedMatchPresence;
@@ -164,11 +165,21 @@ public class MatchMakingManager : ScriptableObject
 
     private void ReceivedStartMatchState(IMatchState matchState)
     {
-        //Debug.Log("Dequeue : Start Match");
+        Debug.Log("Dequeue : Start Match");
         var state = matchState.State.Length > 0 ? System.Text.Encoding.UTF8.GetString(matchState.State).FromJson<Dictionary<string, string>>() : null;
-        //state["ground"] = "{" + state["ground"] + "}";
-        //state["game"] = "{" + state["game"] + "}";
-       
+        if (state == null)
+        {
+            Debug.LogError("State is null");
+        }
+        else
+        {
+            foreach (var item in state)
+            {
+                Debug.Log($"Key={item.Key} , Value={item.Value}");
+            }
+            //state["ground"] = "{" + state["ground"] + "}";
+            //state["game"] = "{" + state["game"] + "}";
+        }
         OnInitMatchState.Invoke();
     }
 
@@ -212,7 +223,7 @@ public class MatchMakingManager : ScriptableObject
         //var query = "*";
         var query = "+properties.mode:" + (int)0;
         var numericProperties = new Dictionary<string, double>() { { "mode", (int)0 } };
-        var stringProprties = new Dictionary<string, string>() { { "partyID",  "" } };
+        var stringProprties = new Dictionary<string, string>() { { "partyID", "" } };
         int minPlayers = 2, maxPlayers = 2;
         if (partyMatchmakerTicket == null) await FindMatchForSinglPlayer(query, minPlayers, maxPlayers, stringProprties, numericProperties);
     }
